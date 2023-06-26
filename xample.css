@@ -1,0 +1,29 @@
+body {
+    background-color: #A7ABCD;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color:;
+    width: 380px;
+    height: 75%;
+}
+.info {
+    background-color: #FDF1B4;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 2.2em;
+    width: 14em;
+    font-size: 0.9rem;
+    border-radius: 0 20px 20px 0px;
+    margin-left: -10px;
+}
+
+

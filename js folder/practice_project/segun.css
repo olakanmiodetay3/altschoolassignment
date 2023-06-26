@@ -1,0 +1,723 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+    margin: 0, auto;
+    padding: 0;
+    width: 100%;
+}
+
+/* Menu */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    padding-top: 10px;   
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: gilroy-medium ;
+    font-size: 18px;
+}
+
+.active_color {
+    color: #0065FE;
+}
+
+#login_button{
+    display: flex;  
+    justify-content: space-between; 
+    margin-top: -15px; 
+}
+
+#login_button button{
+    background-color: #0065FE;
+    border-color: none;
+    border-radius: 100px;
+    padding: 10px 24px;
+    margin-top: 15px;
+    height: 44px;
+    border-width: 0px;
+    color: white;
+    margin-right: 40px;
+    width:150px;
+    font-size: 18px;
+    font-family: gilroy-medium ;
+} 
+
+.menu h5{
+    color: #0065FE;
+    text-decoration: none;
+    font-family: gilroy-light ;
+    font-size: 20px;
+    padding: 12px 24px;
+    margin-top: 15px;
+} 
+
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(180deg, #f8f0ef, white);
+    width:100%
+}
+
+.optimize {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.optimize h1{
+    font-family:gilroy-bold;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+.optimize img{
+    position: relative;
+    margin: 0 auto;
+    top: -15px;
+    left: 15px;
+    max-width:fit-content;
+}
+
+.optimize p{
+    font-family: gilroy-medium;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.optimize button{
+    background: #0065FE;
+    border-color: none;
+    border-radius: 100px;
+    justify-content: center;
+    padding: 12px 24px;
+    width: 142px;
+    height: 44px;
+    border-width: 0px;
+    color: white;
+    margin-right: 40px;
+}
+
+.optimize h5 {
+    font-family: gilroy-light;
+    font-size: 14px;
+    color: #0065FE;
+    margin-top: 15px;
+}
+
+
+.shape{
+    justify-items: center;
+    margin: 0 auto;
+    max-width:fit-content;
+}
+
+
+#triangle {
+    position: relative;
+    top:-260px;
+    left: 340px;
+    display: inline-block;
+}
+
+
+.accordian{
+    display: inline-block;
+}
+
+.card1 {
+    display: flex;
+    width: fit-content;
+    position: relative;
+    background-image: linear-gradient(to right, #edf1f4 , white);
+    margin-left: 350px;
+    padding: 70px 120px 70px 70px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width:2px;
+    border-color: #b6cdf0;
+    z-index: 1;
+}
+
+.wrapper2 {
+    width: 100%;
+}
+
+#circle_layer {
+    margin-top:-200px;
+    margin-bottom: -15px;
+    width: fit-content;
+}
+
+/* One Stop Four Possibilities Section */
+
+.one_stop {
+    margin:0 auto;
+    width:100%;
+    margin-top:5px;
+    padding: 30px 0;
+    background-color: #f9fbfd;
+}
+
+.wrapper3{
+    display:flex;
+    position: relative;
+    justify-content: center;
+    font-family:gilroy-semibold ;
+    margin-right:50px;
+}
+
+.m3, .m60, .b1, .k300 {
+    margin: 0 30px 0 60px;
+}
+
+.wrapper3 h1{
+    font-family: gilroy-bold;
+}
+
+.one_stop span{
+    color: #0065FE;
+}
+
+.wrapper3 h2{
+    font-family:gilroy-medium;
+    font-size: 22px;
+}
+
+.wrapper3 h5{
+    font-family: gilroy-light;
+}
+
+
+ /* Why Choose Scissors Section */
+
+.why {
+    background-color: white;
+    font-family: gilroy-light;
+    margin: 0, auto;
+}
+
+
+.first_section {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1050px;
+    padding:35px 0 50px 0 ;
+}
+
+.why  h5 {
+    font-family: gilroy-light;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.second_section {
+    display: flex;
+    position: relative;
+    left:255px ;
+    top:-90px;
+    justify-content:center;
+    margin: 0 auto;
+    max-width: 550px;
+    padding:50px 0 50px 0;
+}
+
+
+/* Price Section */
+
+.wrapper5 h1{
+    position: relative;
+    bottom: 50px;
+}
+
+.custom_url {
+    font-family: gilroy-medium;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 20px 0 0px;
+}
+
+.url {
+    justify-content: center;
+    font-family: gilroy-medium;
+    max-width: 700px;
+    margin: 0 60px 0 0px;
+}
+
+.qr {
+    font-family: gilroy-medium;
+}
+
+.data {
+    margin-left:50px ;
+    font-family: gilroy-medium;
+}
+
+.why_choose {
+    max-width: 400px;
+    margin-right: 100px;
+    justify-content: center;
+    text-align: justify;
+    font-family: gilroy-medium;
+}
+
+.why_choose h1:before{
+    content: url(../altschool_ass_resources/Line\ 70.svg);
+    display: inline;
+    position: relative;
+    top: 12px;
+    right: 5px;
+}
+
+.url img, .custom_url img, .qr img, .data img {
+    background-color: #e6ecf1;
+    border-radius: 50px;
+    width:35px; height: 35px;
+    padding: 07px;
+}
+
+/* A price perfect for your needs section */
+
+.price {
+    justify-content: center;
+    align-content: center;
+    width: fit-content;
+    font-family: gilroy-bold;
+    margin: 0 auto;
+    margin-top: -80px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading span{
+    color: #0065FE;
+}
+
+.heading p{
+    margin: 0, auto;
+    font-family: gilroy-medium;
+}
+
+#pricing_table  ul{
+    padding: 20px;
+    margin-left:20px;
+    font-family: gilroy-light;
+    line-height:40px;
+}
+
+#pricing_table  ul h5::before{
+    content: url(../altschool_ass_resources/check-circle-blue.svg);
+    margin-right: 10px;
+}
+
+#pricing_table{
+    display:flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#pricing_table h2{
+    font-family: gilroy-bold;
+    font-size: 26px;
+}
+
+#pricing_table h3{
+    font-family: gilroy-light;
+}
+
+#pricing_table h4{
+    font-family: gilroy-medium;
+}
+
+.price h5 {
+    margin-left:-40px;
+    margin-top:5px;
+}
+
+.basic{
+    border: solid RGB(230 236 241) 3px;
+    border-radius: 10px;
+    margin-top: 40px;
+    column-gap: 300px;
+    margin-right: 150px;
+    padding:20px 10px;
+    height: 360px;    
+}
+
+.teams{
+    border: solid RGB(230 236 241) 3px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 150px;
+    padding:20px 10px;
+    height: 360px;
+}
+
+.professional{
+    background-color: #1e3448;
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    padding:40px 05px;
+    top:-10px;
+    height:450px;
+}
+
+.wrapper6 {
+    color: white;
+}
+
+.wrapper5, .wrapper6, .wrapper7 {
+    padding: 10px 50px;
+}
+ 
+.pricing_button {    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px ;
+    margin-top: 100px;
+    align-items: center;
+    gap: 50px;
+} 
+    
+.pricing_button h5{
+    background-color: #0065FE;
+    border-width: 0;
+    text-align: center;
+    color: white;
+    border-radius: 100px;
+    height: 44px;
+    padding: 12px 24px;
+    width: 180px;    
+}
+
+.pricing_button button{
+    border-color: #0065FE;
+    background-color: white;
+    border-width: 2px;
+    text-align: center;
+    color:#0065FE;
+    border-radius: 100px;
+    height: 44px;
+    padding: 12px 24px;
+    width: 180px;
+}
+ 
+/* Form Section */
+
+.url_form {
+    background-color: #1e3448;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding-right: 150px;
+}
+
+.wrapper8 {
+    width: fit-content;
+    max-width: 100%;
+    padding:70px 0px ;
+    display: flex;
+}
+
+.card2 {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: white;
+    margin-left: 420px;
+    max-width: 500px;
+    padding: 50px 40px ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    margin: 0, auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.terms p{
+    margin-top: 5px;
+    color: #0065FE;
+    font-family: gilroy-medium;
+}
+
+input::placeholder {
+    color:#0065FE;
+}
+
+input[type=text] {
+    border: 2px solid #3284ff;
+    border-radius: 8px;
+    padding: 12px ;
+}
+
+
+input[type=url] {
+    border: 2px solid #3284ff;
+    border-radius: 8px;
+    width: 400px;
+    padding: 12px ;
+    color: #0065FE;
+}
+
+.card2 select {
+    border: 2px solid #3284ff;
+    border-radius: 8px;
+    padding: 12px ;
+    color: #0065FE;
+}
+
+#form2 {
+    margin-top: 20px; 
+    max-width: 500px;
+}
+
+#form2 select{
+    width: 205px
+}
+
+.card2 button{
+    background-color: #0065FE;
+    border-color: none;
+    border-radius: 100px;
+    justify-content: center;
+    padding: 12px 24px;
+    margin-top: 15px;
+    width: 142px;
+    height: 44px;
+    border-width: 0px;
+    color: white;
+    width: 405px;
+    max-width: 405px;
+}
+
+.form_vector {
+    position: absolute;
+}
+
+.form_vector2{
+    position: absolute;
+    right:-25px
+}
+
+/* FAQa */
+
+.faqs h2 {
+    font-family: gilroy-bold;
+    font-size: 46px;
+}
+
+.faqs h2::before{
+    content: url(../altschool_ass_resources/Line\ 70.svg);
+    position: relative;
+    top: 10px;
+    right: 12px;
+}
+
+.accordian {
+    margin: 40px auto;
+    width: 800px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.wrapper9 {
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordian li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: -20px;
+    padding: 10px;
+}
+
+.accordian li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: gilroy-medium;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.accordian label + input[type="radio"]{
+    display: none;
+}
+
+.accordian .content {
+    padding: 0 10px;
+    line-height: 22px;
+    max-height:0 ;
+    overflow: hidden;
+    font-family: gilroy-medium;
+    font-size: 14px;
+    transition: max-height 0.5s;
+    border-top:10px;
+    border-bottom: 2px solid RGB(230 236 241);
+
+}
+
+.accordian label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+
+.accordian label::after{
+    content:'+';
+    font-size: 1.5em;
+    rotate: 90deg;
+}
+
+.faq_vector {
+    position: absolute;
+}
+
+
+/* Revolution Section */
+
+.revolution{
+    background-color: #1e3448;
+    width:100%
+}
+
+.revolution_vector {
+    position: absolute;
+}
+
+.revolution_vector2{
+    position: absolute;
+    right:-2px;
+    width: fit-content;
+}
+ 
+.wrapper10 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0px;
+    font-family:gilroy-bold ;
+    color: white;
+} 
+
+.wrapper10 button{
+    background-color: #0065FE;
+    border-color: none;
+    border-radius: 100px;
+    justify-content: center;
+    padding: 12px 24px;
+    margin-top: 15px;
+    width: 142px;
+    height: 44px;
+    border-width: 0px;
+    color: white;
+    margin-right: 40px;
+    width:210px;
+}
+
+
+/* Footer Section */
+
+footer {
+    background-color: white;
+    width:100%; 
+}
+
+footer .wrapper11 {
+    padding:60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.why_scissors2 h2{
+    font-family: gilroy-bold;
+    font-size: larger;
+
+}
+
+footer ul {
+    font-family: gilroy-medium;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer_section1 {
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 90px;
+    /* width: 1300px; */
+} 
+
+.footer_section2{
+    display: flex;
+    column-gap: 50px;
+    position: relative;
+    right: -45px;
+} 
+
+.products {
+    margin-lefT:-25px;
+
+}
+
+#footer_media {
+    row-gap: 820px;
+}
+
+
+footer h4{
+    font-family: gilroy-bold;
+}
+
+.terms{
+    font-family: gilroy-medium;
+    text-align: right;
+    font-size: 14px;
+    word-spacing :5px;
+}
+
+
+
+
+
+  
