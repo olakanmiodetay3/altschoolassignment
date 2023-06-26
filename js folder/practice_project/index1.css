@@ -1,11 +1,18 @@
 *{  font-family:  'gilroy-bold', sans-serif;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 body{
     margin: 0;
     padding: 0;
     position: relative;
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+    max-width: 100%;
+}
+
+.container{
+    background-color: white;
 }
 
 nav{
@@ -127,6 +134,11 @@ section.analytics{
     margin-left: 50px;
 }
 
+.container3{
+    background-color: white;
+    
+}
+
 .perfect{
     display: flex;
     justify-content: center;
@@ -159,29 +171,30 @@ section.price{
     border: 1px solid white;
     background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
     ;
-    padding-top: ;
-    padding-bottom: ;
+    padding-top: 0;
+    padding-bottom: 0;
     border-top: px;
     border-top: px;
     position: absolute;
     margin-left: 300px;
     margin-bottom:  px;
     margin-top:  px;
-    height:;
+    height:0;
 }
 
 div.middle_b{
     display: flex;
     justify-content: center;
-    margin-right: ;
+    margin-right:0 ;
     margin-top:50px;
-    border-radius: ;
+    border-radius:0 ;
+    margin-bottom: 30px;
 
 }
 
 #middle_b1{
     border: 1px solid blue;
-    border-radius: ;
+    border-radius: 0;
     border-radius: 40px;
     padding: 10px;
     background-color:white;
@@ -199,22 +212,27 @@ div.middle_b{
 }
 
 section.count{
-    margin-top: 100px;
-    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+    margin-top: 50px;
+    
 }
 
 .count1{
     border: 1px solid white ;
     border-width: 100px;
-    position: ;
+    position: 0;
+    border: 1px solid white;
+    background-color: white;
+    margin-left:200px ;
+    margin-right:200px ;
+   /* margin-top:100px ;
+    margin-bottom:100px ;*/
+    border-radius: 10px;
 
 }
 
 .paste{
     display: flex;
     justify-content: center;
-
-    
 
 }
 
@@ -233,4 +251,99 @@ height:200px ;
     position: absolute;
     height:200px ;
     
+}
+
+#paste_url{
+    border: 1px solid blue;
+    border-radius: 10px;
+
+}
+
+#choose{
+    display: flex;
+    
+
+}
+
+#domain{
+    border: 1px solid blue;
+    margin-right: 10px;
+    border-radius: 10px;
+
+
+}
+
+#alias{
+    border: 1px solid blue;
+    border-radius: 10px;
+
+
+}
+
+#trim{
+    border: 1px solid blue;
+    border-radius: 10px;
+
+}
+
+.container6{
+    background-color: white;
+}
+
+.center2{
+    display: flex;
+    justify-content: center;
+}
+
+#get{
+    border: 1px solid blue;
+    border-radius:10px;
+    background-color:blue ;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding:5px
+    
+}
+
+.foot1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.foot4{
+    display: flex;
+    margin-right:130px ;
+}
+
+.foot5{
+    display: flex;
+    margin-right:150px ;
+    margin-left: 40px;
+}
+
+.foot6{
+    display: flex;
+    margin-right:150px ;
+    margin-left: 100px;
+    
+}
+
+.foot7{
+    display: flex;
+    margin-right:150px ;
+    margin-left: 100px;
+}
+
+.foot8{
+    text-align: right;
+}
+
+
+.container9{
+    background-color: white;
+}
+
+/*.fot4{
+    margin-right:130px ;
 }
